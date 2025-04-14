@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -22,8 +22,6 @@ export function ProjectCard({
   title,
   description,
   tags,
-  image,
-  demoUrl,
   codeUrl,
 }: ProjectCardProps) {
   return (

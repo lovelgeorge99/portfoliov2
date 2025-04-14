@@ -2,7 +2,6 @@ import {
   Code,
   GitBranch,
   Layout,
-  Palette,
   Server,
   BlocksIcon,
   type LucideIcon,

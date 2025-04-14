@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="flex flex-col justify-center space-y-4">
             <div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-                Hi, I'm <span className="text-primary">Lovel George</span>
+                Hi, I&apos;m <span className="text-primary">Lovel George</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 Professional Software Engineer with 2+ years of experience in

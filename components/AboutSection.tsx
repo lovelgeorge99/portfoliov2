@@ -25,14 +25,14 @@ const AboutSection = () => {
             <li>React and NextJS</li>
             <li>TypeScript</li>
             <li>NestJS and Express</li>
-            <li>GraphQL</li>
+            <li>GraphQL and REST APIs</li>
             <li>NoSQL adn SQL databses</li>
             <li>Blockchain technologies</li>
           </ul>
           <p>
-            When I'm not coding, you can find me exploring new technologies,
-            contributing to open-source projects, or building some other
-            projects using the new tech stacks.
+            When I&apos;m not coding, you can find me exploring new
+            technologies, contributing to open-source projects, or building some
+            other projects using the new tech stacks.
           </p>
         </div>
         <div className="space-y-6">
