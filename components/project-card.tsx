@@ -22,6 +22,7 @@ export function ProjectCard({
   title,
   description,
   tags,
+  demoUrl,
   codeUrl,
 }: ProjectCardProps) {
   return (
