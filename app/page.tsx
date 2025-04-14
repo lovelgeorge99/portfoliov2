@@ -47,6 +47,7 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
+
         <HeroSection />
         {/* About Me Section */}
         <AboutSection />
