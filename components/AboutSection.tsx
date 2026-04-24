@@ -4,6 +4,14 @@ const AboutSection = () => {
   return (
     <section id="about-me" className="container py-16 border-t ">
       <h2 className="mb-8 text-center text-3xl font-bold">About Me</h2>
+      {/* https://drive.google.com/file/d/1MN2yNTmgraVjtU0sfu5eSIXyKg9a9I-1/view?usp=sharing */}
+      <iframe
+        src="https://drive.google.com/file/d/1MN2yNTmgraVjtU0sfu5eSIXyKg9a9I-1/preview"
+        width="70%"
+        height="500"
+        allow="autoplay"
+      ></iframe>
+
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4">
           <p className="text-lg">
@@ -11,7 +19,7 @@ const AboutSection = () => {
             passion for creating scalable, high-performance web applications.
             With a strong foundation in front-end and back-end technologies, I
             bridge the gap between design and functionality to provide seamless
-            digital experiences.
+            digital experiences.mvb cmb
           </p>
           <p>
             I specialize in building responsive, user-friendly applications
@@ -62,6 +70,9 @@ const AboutSection = () => {
           <div className="rounded-lg bg-slate-50 p-6">
             <h3 className="text-lg font-semibold mb-4">Interests</h3>
             <div className="flex flex-wrap gap-2">
+              <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+                Skydiving
+              </span>
               <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
                 Camping
               </span>
